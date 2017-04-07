@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -41,7 +41,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 }
 
@@ -56,7 +56,7 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 }
 
@@ -260,7 +260,7 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 6em;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -269,18 +269,18 @@ Image credits: unsplash.com
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 1s all ease-in-out .1s;
-       -moz-transition: 1s all ease-in-out .1s; 
-        -ms-transition: 1s all ease-in-out .1s; 
-         -o-transition: 1s  all ease-in-out .1s; 
-            transition: 1s  all ease-in-out .1s; 
+       -moz-transition: 1s all ease-in-out .1s;
+        -ms-transition: 1s all ease-in-out .1s;
+         -o-transition: 1s  all ease-in-out .1s;
+            transition: 1s  all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
     -webkit-transition: 1s  all ease-in-out .1s;
-       -moz-transition: 1s  all ease-in-out .1s; 
-        -ms-transition: 1s  all ease-in-out .1s; 
-         -o-transition: 1s  all ease-in-out .1s; 
-            transition: 1s  all ease-in-out .1s;    
+       -moz-transition: 1s  all ease-in-out .1s;
+        -ms-transition: 1s  all ease-in-out .1s;
+         -o-transition: 1s  all ease-in-out .1s;
+            transition: 1s  all ease-in-out .1s;
 }
 
 /********************************/
@@ -298,16 +298,17 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(../img/chicken.jpg); 
+  background-image: url(../img/chicken.jpg);
 }
 .fade-carousel .slides .slide-2 {
   background-image: url(../img/jajang.jpg);
@@ -315,13 +316,16 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-3 {
   background-image: url(../img/jjambong.jpg);
 }
+.fade-carousel .slides .slide-4 {
+  background-image: url(../img/mongolian.jpg);
+}
 
 /********************************/
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+    .hero h1 { font-size: 4em; }
 }
