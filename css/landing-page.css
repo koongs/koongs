@@ -49,9 +49,9 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: black;
     /* paralax info*/
-    background: url(../img/cny.jpg);
+    /*background: url(../img/cny.jpg);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,11 +68,11 @@ h6 {
 }
 
 .transbox {
-  margin: 5px;
+  margin: 0px;
   padding: 20px;
-  background-color: #1e1e1e;
-  opacity: 0.75;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+  /*background-color: #2a2a2a;*/
+  opacity: 0.90;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 .mid-message > h1 {
     padding: 50px;
@@ -100,6 +100,12 @@ h6 {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+.intro-divider2 {
+    width: 250px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -145,6 +151,7 @@ h6 {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
 }
 
 .section-heading {
@@ -319,13 +326,77 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-4 {
   background-image: url(../img/mongolian.jpg);
 }
-
+footer {
+    background: #454646 none repeat scroll 0 0;
+    padding-bottom: 42px;
+}
+footer h4 {
+    font-family: 'Maitree', serif;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
 /********************************/
 /*          Media Queries       */
 /********************************/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }
+
+/*.map-container {
+	width: 100%;
+}*/
+.map-overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+   display: block;
 }
-@media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }
+
+
+.social {
+  width: 50px; height: 50px;
+	display: inline-block; text-align: center; line-height:50px; color:#fff ;
+	position: relative;
+	transform:rotateY(0deg);
+	transition:transform .25s ease-out;
+	transform-style:preserve-3d;
+}
+.social > div {
+	width: 50px; height: 50px; background: #000;
+	position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+}
+.social >.front {
+	transform:translateZ(20px);
+	font-size: 1em;
+
+}
+.social >.back {
+	background: white; font-size: 1em;
+	transform:rotateY(-100deg) translateZ(20px);
+}
+.social >.grub {
+	background: white; font-size: .8em;
+	transform:rotateY(-100deg) translateZ(20px);
+}
+
+.social.social-github > .back { background: #a30000; color: white; }
+.social.social-linkedin > .back { background: #a30000; color: white; }
+.social.social-email > .back { background: #a30000; color: white; }
+
+.red-title {
+  color:#d11919;
+  font-family: 'Francois One';
+}
+/* Hover */
+.social:hover {
+	transform: rotateY(100deg);
+}
+
+.img-section-space {
+    margin-top: 5px;
+}
+.desc-text{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
 }
