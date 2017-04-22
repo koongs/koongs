@@ -37,6 +37,7 @@ h6 {
     color: #f8f8f8;
     /* paralax info*/
     background: url(../img/greatwall.jpg);
+    width: 100%;
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
