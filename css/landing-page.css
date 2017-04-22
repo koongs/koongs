@@ -38,11 +38,9 @@ h6 {
     /* paralax info*/
     background: url(../img/greatwall.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .mid-header {
