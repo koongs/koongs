@@ -38,11 +38,9 @@ h6 {
     /* paralax info*/
     background: url(../img/greatwall.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 
 .mid-header {
@@ -336,6 +334,8 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-3 {
   background-image: url(../img/jjambong.jpg);
 }
+/*changed extension*/
+/*adding comments*/
 .fade-carousel .slides .slide-4 {
   background-image: url(../img/mongolian.jpg);
 }
